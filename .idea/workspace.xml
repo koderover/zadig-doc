@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6b48c9e-d2b4-432f-beff-16cf823b1533" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zh_cn/10.系统设置/_images/codehub_integration.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/emacs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zadig-doc.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/zh_cn/10.系统设置/01.code.md" beforeDir="false" afterPath="$PROJECT_DIR$/zh_cn/10.系统设置/01.code.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +33,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/zh_cn/10.系统设置/_images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
