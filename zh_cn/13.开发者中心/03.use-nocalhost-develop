@@ -1,0 +1,68 @@
+---
+title: 使用 Nocalhost 开发 Zadig
+date: 2021-07-30 15:21:00
+permalink: /api/use-nocalhost-develop/
+---
+
+众所周知，在 `Kubernetes` 环境下开发应用是非常困难的，一般的做法是本地修改完源码后，需要重新构建镜像，推送到仓库，修改工作负载镜像版本，等待 Pod 调度再查看编码效果，这通常需要几分钟的时间，极大地降低了编码效率。
+
+本文主要介绍如何使用 `Nocalhost` 来加速 Zadig 的开发过程 ，并以 `aslan` 微服务为案例讲解。
+
+## 前置条件
+
+* 准备一个 Kubernetes 集群（Minkube 或公有云），v1.12.0+ 版本
+* 已在集群内安装 Zadig
+
+## 步骤 1：安装 Nocalhost 插件
+
+前往 [https://nocalhost.dev/eng/installation/](https://nocalhost.dev/eng/installation/)，根据指引安装 VSCode 或 Jetbrains 插件。
+
+## 步骤 2：在插件内添加 Kubecofig
+
+以 `Goland` 为例，打开右侧菜单的 `Nocalhost` 插件，并点击 "+" 按钮，选择 "Paste as Text" 黏贴 `Kubeconfig`（建议使用具有管理员权限的 kubeconfig）
+
+![添加 Kubeconfig](./_images/add_kubeconfig.png "添加 Kubeconfig")
+
+点击确认后，插件内将列出集群所有的 `Namespace`。
+
+
+## 步骤 3：选择 `aslan` Deployment 进入开发模式
+
+如果之前已使用 `Helm` 方式安装 `Zadig`，那么展开 "Zadig" Namespace，找到 `aslan` 微服务，右键点击该微服务，选择 "Start Develop"，进入开发模式。
+
+![选择源码目录来源](./_images/choose_source_directory.png "选择源码目录来源")
+
+* 如果本地已有 `Zadig` 源码，那么请选择 "Open local directly" 选择本地目录
+* 如果第一次参与 `Zadig` 贡献，那么请选择 "Clone from Git Repo"，并输入 `Zadig` 源码仓库地址：https://github.com/koderover/zadig.git
+
+以使用 "Clone from Git Repo" 方式为例，克隆完成后，将自动打开源码目录。
+
+由于 `Zadig` 内置了 `Nocalhost` 开发参数(.nocalhost/config.yaml)，此时将自动进入 `aslan` 服务的开发模式。
+
+## 步骤 4：在开发容器内启动 `aslan` 服务
+
+进入开发模式后，将在 `Goland` 底部终端栏自动打开远端开发容器的 `Terminal`，在容器里执行 `go run cmd/aslan/main.go`，稍等片刻，即可启动 `aslan`。
+
+![在开发容器内启动 aslan 服务](./_images/run_aslan.png "在开发容器内启动 aslan 服务")
+
+## 步骤 5：开发
+
+进入开发模式后，对本地源码的所有修改，都将实时同步到远端容器。
+
+以修改接口编辑项目接口 "/api/aslan/project/products" 为例（pkg/microservice/aslan/core/project/service/product.go），在该文件的 402 行增加代码：
+
+```
+return e.ErrUpdateProduct.AddErr(errors.New("code change here"))
+```
+
+保存后生效。
+
+修改完源码后，由于需要重新编译，首先在开发容器的终端内使用 "Command+c"(Windows: Ctrl+c) 停止原来的 `aslan` 进程，并重新运行 `go run cmd/aslan/main.go` 启动程序。
+
+![重新启动 aslan](./_images/rerun_aslan.png "重新启动 aslan")
+
+此时，进入编辑项目 Web 页面，点击保存后将出现报错信息。
+
+![编辑项目失败](./_images/update_project_fail.png "编辑项目失败")
+
+至此，实现了本地修改源码后，只需要在容器内重新运行 `go run cmd/aslan/main.go` 即可查看修改效果，实现了秒级的开发/自测/调试循环反馈。
