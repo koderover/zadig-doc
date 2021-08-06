@@ -1,4 +1,4 @@
-<p><a href="https://github.com/koderover/zadig-doc" target="_blank" rel="noopener noreferrer"><img height="50" src="https://docs.koderover.com/zadig/img/zadig.png" alt="Zadig logo" style="vertical-align: bottom;"><span style="font-size: 32px;vertical-align: bottom;">&nbsp;文档</span></a></p>
+<p><a href="https://github.com/koderover/zadig-doc" target="_blank" rel="noopener noreferrer"><img height="50" src="https://docs.koderover.com/zadig/img/zadig.png" alt="Zadig logo" style="vertical-align: bottom;"></a><span style="font-size: 35px;">&nbsp;文档</span></p>
 
 ---
 
