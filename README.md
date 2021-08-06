@@ -1,6 +1,5 @@
-<h1><a href="https://github.com/koderover/zadig-doc" target="_blank" rel="noopener noreferrer"><img height="50" src="https://docs.koderover.com/zadig/img/zadig.png" alt="Zadig logo"></a></h1>
+<p><a href="https://github.com/koderover/zadig-doc" target="_blank" rel="noopener noreferrer"><img height="50" src="https://docs.koderover.com/zadig/img/zadig.png" alt="Zadig logo"></a></p>
 
----
 
 欢迎来到 [Zadig](https://github.com/koderover/zadig) 文档仓库，这里存放的是 [Zadig 中文文档](https://docs.koderover.com/zadig/)的 Markdown 文件。
 
