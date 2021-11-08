@@ -5,7 +5,7 @@
 
 Zadig 是一款由 KodeRover 公司推出的面向开发者设计的云原生持续交付(Continuous Delivery)产品，具备高可用 CI/CD 能力，提供云原生运行环境，支持开发者本地联调、微服务并行构建和部署、集成测试等。Zadig 不改变现有流程，无缝集成 GitHub/GitLab、Jenkins、多家云厂商等，运维成本极低。
 
-关于 Zadig 的更多信息，可通过访问 [Zadig 官网](https://koderover.com/)进行了解。
+关于 Zadig 的更多信息，可通过访问 [KodeRover 官网](https://koderover.com/)进行了解。
 
 ## 如何贡献
 
