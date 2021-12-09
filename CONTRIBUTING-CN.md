@@ -5,9 +5,6 @@
 ## 目录
 
 - [文档编写指南](#文档编写指南)
-  - [目录配置](#目录配置)
-  - [Markdown 书写规范](#Markdown-书写规范)
-  - [语法扩展](#语法扩展)
 - [如何贡献文档](#如何贡献文档)
   - [反馈问题](#反馈问题)
   - [线上编辑](#线上编辑)
@@ -55,10 +52,10 @@ Zadig 的文档发布在 [docs.koderover.com](https://docs.koderover.com/)，可
    git remote add upstream https://github.com/koderover/zadig-doc.git
    ```
 
-3. 确定文档的分支，切换到相应的分支进行编辑，对应规则：latest 对应 main 分支、v1.0 对应 release-1.0、v2.0 对应 release-2.0，依此类推。
+3. 确定文档的版本，切换到相应的文件夹进行编辑，对应规则：1.7.0 对应 v1.7.0 版本、1.6.0 对应 v1.6.0 版本，依此类推。
 
    ```
-   git checkout feature-branch
+   cd 1.7.0
    ```
 
 4. 完成后提交。
