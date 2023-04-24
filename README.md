@@ -9,7 +9,7 @@ Zadig 是一款由 KodeRover 公司推出的面向开发者设计的云原生持
 
 ## 如何贡献
 
-如果您发现或遇到了 Zadig 文档的问题，可随时向我们提交 [Issue](https://github.com/koderover/zadig-doc/issues) 或 [Pull Request](https://github.com/koderover/zadig-doc/pulls)。
+如果你发现或遇到了 Zadig 文档的问题，可随时向我们提交 [Issue](https://github.com/koderover/zadig-doc/issues) 或 [Pull Request](https://github.com/koderover/zadig-doc/pulls)。
 
 在开始贡献前，请确认 Zadig 文档版本与内容文件夹的对应关系：
 
