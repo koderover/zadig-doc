@@ -4,19 +4,19 @@ date: 2023-04-21 09:59:31
 permalink: /Zadig v2.0.0/stable/zadig-to-zadigx/
 ---
 
-本文档主要介绍如何从正式使用中的 Zadig 系统，通过升级的方式切换到 ZadigX，其中包括注意事项，准备工作及详细的升级验收步骤。
+本文档主要介绍如何从正式使用中的 Zadig 系统，通过升级的方式切换到 Zadig，其中包括注意事项，准备工作及详细的升级验收步骤。
 
 ## 注意事项
 
-1. 需购买 ZadigX 官方许可，并在官方企业服务团队的指导下进行。
-2. ZadigX 和 Zadig 的数据结构差异较大，升级操作不可逆，降级会造成不可用。
+1. 需购买 Zadig 官方许可，并在官方企业服务团队的指导下进行。
+2. Zadig 和 Zadig 的数据结构差异较大，升级操作不可逆，降级会造成不可用。
 3. Zadig 的版本不能低于 v1.18.0，如果版本不能满足，请参考[升级文档](/Zadig%20v1.18.0/release-notes/v1.18.0/)先将其升级。
 
 ## 准备工作
 
 **1. 准备业务验收项目**
 
-在 Zadig 上准备一个或多个核心验收项目，可以进行查看环境、查看环境中的服务、运行工作流等操作，以便在升级完成后对 ZadigX 进行验收。
+在 Zadig 上准备一个或多个核心验收项目，可以进行查看环境、查看环境中的服务、运行工作流等操作，以便在升级完成后对 Zadig 进行验收。
 
 **2. 备份数据**
 
@@ -47,7 +47,7 @@ ee:
 
 **4. 获取许可证**
 
-联系官方获取 ZadigX 许可证。
+联系官方获取 Zadig 许可证。
 
 ## 升级步骤
 :::warning 注意事项
@@ -55,9 +55,9 @@ ee:
 2. 升级时，请勿在 Zadig 上执行任何操作。
 :::
 
-### 安装 ZadigX
+### 安装 Zadig
 
-执行以下命令来安装 ZadigX：
+执行以下命令来安装 Zadig：
 
 ``` bash
 helm repo add koderover-chart https://koderover.tencentcloudcr.com/chartrepo/chart
@@ -69,7 +69,7 @@ helm upgrade {ReleaseName} koderover-chart/zadigx -n {Namespace} -f config.yaml
 
 ### 配置许可证
 
-待 ZadigX 成功部署后，访问 ZadigX 系统，输入许可证保存后即可。
+待 Zadig 成功部署后，访问 Zadig 系统，输入许可证保存后即可。
 
 ![安装](../../../_images/install_3.png)
 
@@ -93,7 +93,7 @@ mysql -h <HOST> -P <PORT> -u root -p user < user.sql
 mysql -h <HOST> -P <PORT> -u root -p dex < dex.sql
 ```
 
-数据导入完毕后访问 ZadigX 系统，输入使用许可证即可。
+数据导入完毕后访问 Zadig 系统，输入使用许可证即可。
 
 ### 升级验收
 
