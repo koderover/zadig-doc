@@ -10,7 +10,7 @@ permalink: /Zadig v2.0.0/stable/zadig-to-zadigx/
 
 1. 需购买 Zadig 官方许可，并在官方企业服务团队的指导下进行。
 2. Zadig 和 Zadig 的数据结构差异较大，升级操作不可逆，降级会造成不可用。
-3. Zadig 的版本不能低于 v1.18.0，如果版本不能满足，请参考[升级文档](/Zadig%20v1.18.0/release-notes/v1.18.0/)先将其升级。
+3. Zadig 的版本不能低于 v1.18.0，如果版本不能满足，请参考[升级文档](/Zadig%20v2.0.0/release-notes/v1.18.0/)先将其升级。
 
 ## 准备工作
 
