@@ -53,7 +53,7 @@ export IP=<node external ip>
 export PORT=<30000~32767 任一端口>                                                         
 
 sealos run labring/kubernetes:v1.24.0 labring/helm:v3.12.0 labring/calico:v3.24.1 labring/openebs:v3.4.0
-sealos run --env IP=${IP} --env PORT=${PORT} labring/zadig:2.1.0
+sealos run --env IP=${IP} --env PORT=${PORT} labring/zadig:2.2.0
 ```
 
 ![预期安装结果](../../../_images/sealos_install_success.png)
