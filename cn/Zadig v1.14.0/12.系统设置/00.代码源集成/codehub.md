@@ -1,7 +1,7 @@
 ---
 title: CodeHub 集成
 date: 2021-07-22 17:48:34
-permalink: /Zadig v1.14.0/settings/codehost/codehub/
+permalink: /cn/Zadig v1.14.0/settings/codehost/codehub/
 ---
 
 本文主要介绍在 Zadig 上如何集成 CodeHub 代码源。

@@ -1,7 +1,7 @@
 ---
 title: 基于 Zadig 升级
 date: 2023-04-21 09:59:31
-permalink: /Zadig v2.3/stable/zadig-to-zadigx/
+permalink: /cn/Zadig v2.3/stable/zadig-to-zadigx/
 ---
 
 本文档主要介绍如何从正式使用中的 Zadig 系统，通过升级的方式切换到 Zadig，其中包括注意事项，准备工作及详细的升级验收步骤。

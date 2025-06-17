@@ -1,7 +1,7 @@
 ---
 title: 产品工作流
 date: 2021-03-16 17:39:08
-permalink: /Zadig v2.3/project/workflow/
+permalink: /cn/Zadig v2.3/project/workflow/
 ---
 
 本文主要介绍 Zadig 的工作流的配置。

@@ -1,7 +1,7 @@
 ---
 title: 使用 Sealos 一键安装
 date: 2023-08-21 16:48:02
-permalink: /Zadig v2.1.0/install/all-in-one-sealos/
+permalink: /cn/Zadig v2.1.0/install/all-in-one-sealos/
 ---
 
 在单台云主机或者虚拟机上使用 Sealos 安装 Kubernetes 以及 Zadig 系统，适合初次接触 Kubernetes 和 Zadig 并想快速体验的用户。

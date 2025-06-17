@@ -1,7 +1,7 @@
 ---
 title: 工作流的镜像版本回退
 date: 2021-12-15 18:53:06
-permalink: /Zadig v3.3/workflow/image/rollback/
+permalink: /cn/Zadig v3.3/workflow/image/rollback/
 ---
 
 本文主要介绍工作流支持的镜像版本回退能力：在按照流程运行工作流完毕后，根据工作流任务实际运行结果和设置的回退策略来回退集成环境中被更新服务的镜像，恢复为工作流运行之前的镜像版本。
