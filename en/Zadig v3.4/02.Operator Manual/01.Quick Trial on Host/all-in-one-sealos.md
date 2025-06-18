@@ -75,7 +75,7 @@ kubectl -n zadig get po
 In the installation result output, you will find the system's access address.
 
 ::: tip
-Professional License Acquisition and Configuration Reference Document: [License](/en/Zadig%20v3.4/enterprise-mgr/#%E8%AE%B8%E5%8F%AF%E8%AF%81)
+Professional License Acquisition and Configuration Reference Document: [License](/en/Zadig%20v3.4/enterprise-mgr/#license)
 :::
 
 ## Uninstall
