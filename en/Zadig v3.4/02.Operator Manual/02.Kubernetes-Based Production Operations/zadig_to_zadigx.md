@@ -50,7 +50,7 @@ In the MongoDB database instance, create a new database named plutus_zadig and g
 Contact the official team to obtain the Zadig license.
 
 ## Upgrade Steps
-:::warning 注意事项
+:::warning Notice
 1. When upgrading, ensure that the ReleaseName you are using matches the value used during the initial installation of Zadig.
 2. Do not perform any operations on Zadig during the upgrade process.
 :::
