@@ -4,7 +4,7 @@ date: 2021-12-15 18:53:06
 permalink: /en/Zadig v3.4/workflow/image/rollback/
 ---
 
-This article primarily introduces the image version fallback capability supported by workflows: After running the workflow according to the process, the image of the updated service in the integrated environment will be rolled back to the version before the workflow ran, based on the actual results of the workflow tasks and the set rollback strategy.
+This article introduces the image version fallback capability supported by workflows: After running the workflow according to the process, the image of the updated service in the integrated environment will be rolled back to the version before the workflow ran, based on the actual results of the workflow tasks and the set rollback strategy.
 
 > [K8s YAML Deployed projects](/en/Zadig%20v3.4/project/k8s-yaml/) and [Helm Chart Deployed projects](/en/Zadig%20v3.4/project/helm-chart/) support the image version fallback function.
 
