@@ -75,7 +75,7 @@ kubectl -n zadig get po
 在安装结果输出中，你可以获得系统的访问地址。
 
 ::: tip
-专业版许可证获取和配置参考文档：[许可证](/cn/Zadig%20v3.4/enterprise-mgr/#许可证)
+专业版许可证获取和配置参考 [许可证](/cn/Zadig%20v3.4/enterprise-mgr/#许可证)
 :::
 
 ## 卸载
