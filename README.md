@@ -3,7 +3,9 @@
 
 欢迎来到 [Zadig](https://github.com/koderover/zadig) 文档仓库，这里存放的是 [Zadig 中文文档](https://docs.koderover.com/zadig/)的 Markdown 文件。
 
-Zadig 是一款由 KodeRover 公司推出的面向开发者设计的云原生持续交付(Continuous Delivery)产品，具备高可用 CI/CD 能力，提供云原生运行环境，支持开发者本地联调、微服务并行构建和部署、集成测试等。Zadig 不改变现有流程，无缝集成 GitHub/GitLab、Jenkins、多家云厂商等，运维成本极低。
+Zadig 由 KodeRover 自主研发，是基于 Kubernetes 与 AI 大模型的开源云原生 DevOps 平台，源码 100% 开放，致力于帮助企业实现产研数字化转型。
+核心能力覆盖灵活可扩展的工作流、多种发布策略编排、一键安全审核、AI 环境巡检与效能诊断、定制化企业级 XOps 敏捷看板，并支持深度集成企业平台、项目模板化批量纳管数千服务。
+Zadig 全面融入 AI 代码审查、AI 发布风险评估、AI 任务编排及智能体管理等智能化能力，让代码质量防线前移、发布决策更精准、交付流程更自动，真正使工程师成为创新引擎，为数字经济的持续创新提供坚实基座。
 
 关于 Zadig 的更多信息，可通过访问 [KodeRover 官网](https://koderover.com/)进行了解。
 
