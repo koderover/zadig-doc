@@ -14,7 +14,7 @@ This article introduces the image version fallback capability supported by workf
 
 Edit the workflow, enable the mirror version fallback function, and save it to activate this feature.
 
-![Enable Mirror Version Fallback](../../../../_images/check_pipeline_setting.png)
+![Enable Mirror Version Fallback](./_images/check_pipeline_setting.png)
 
 ## Applicable Scenarios
 
