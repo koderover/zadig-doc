@@ -71,7 +71,7 @@ The installation process is influenced by hardware configuration and network con
 
 After Zadig is successfully deployed, access the Zadig system, input the license, and save it.
 
-![Install](../../../_images/install_3.png)
+![Install](./_images/install_3.png)
 
 ### Import Data
 
