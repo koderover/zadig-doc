@@ -16,11 +16,11 @@ permalink: /cn/Zadig v5.0/project/build/jenkins/
 2. 需要先在 Zadig 系统中集成镜像仓库，详见[镜像仓库管理](/cn/Zadig%20v5.0/settings/image-registry/)
 3. 要使用的 Jenkins Job 中需要配置 Build Parameters，包含 `IMAGE` 变量，作为构建出的镜像产物，并将 `IMAGE` 推送至集成的镜像仓库中，示例如下：
 
-![jenkins build](../../../_images/jenkins_image_parameter.png)
-![jenkins build](../../../_images/jenkins_image_build.png)
+![jenkins build](./_images/jenkins_image_parameter.png)
+![jenkins build](./_images/jenkins_image_build.png)
 
 ### 如何配置
-![jenkins build](../../../_images/jenkins_build.png)
+![jenkins build](./_images/jenkins_build.png)
 
 新建构建，构建来源选择 `Jenkins 构建`，填写相关参数保存即可。参数说明如下：
 - `服务选择`：要构建的服务
@@ -30,10 +30,10 @@ permalink: /cn/Zadig v5.0/project/build/jenkins/
     - `IMAGE` 参数：即为[前提](#前提)中的 `IMAGE` 变量，运行工作流时会传递给对应的 Jenkins Job 作为构建镜像产物名称。支持使用系统内置变量来为其赋值，参考[策略配置](/cn/Zadig%20v5.0/project/service/k8s/#策略配置)
     - 枚举类型的参数：可修改枚举类型参数的可选值。注意：可选值需要在 Jenkins Job 中支持。以下图中的 Jenkins Job 参数配置为例，则此处可在 Zadig 中修改枚举参数 `ParallelNum` 的可选值为 1,2,3,4
 
-![jenkins build](../../../_images/show_choice_values_in_jenkins.png)
+![jenkins build](./_images/show_choice_values_in_jenkins.png)
 
 ### 使用效果
 
-![jenkins build](../../../_images/jenkins_build_result.png)
+![jenkins build](./_images/jenkins_build_result.png)
 
 执行 Zadig 产品工作流，可以触发 Jenkins 任务的执行并将 Jenkins 任务中产生的镜像部署到环境中。

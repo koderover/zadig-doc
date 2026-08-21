@@ -6,7 +6,7 @@ permalink: /cn/Zadig v5.0/env/loadbalance/
 
 本文主要介绍 Zadig 环境的负载均衡能力。在高峰使用时间段， 代码变更触发工作流执行服务更新会因为环境资源的限制，导致工作流任务长时间的等待，大大影响交付效率，Zadig 的环境负载均衡能力可以缓解并发工作流任务使用环境资源的压力。
 
-![环境负载均衡](../../_images/env_loadbalance.png)
+![环境负载均衡](./_images/env_loadbalance.png)
 
 经过简单配置，减少代码变更触发的工作流任务排队数量，实现资源的最大化利用。配置步骤如下：
 
@@ -20,7 +20,7 @@ Zadig 系统支持使用一套服务配置，创建多套同构的环境，详�
 ## 第 2 步：配置工作流 Webhook 触发器
 准备好多套环境后，配置工作流的触发器，如下图所示。
 
-![webhook配置](../../_images/env_loadbalance_webhook.png)
+![webhook配置](./_images/env_loadbalance_webhook.png)
 
 说明：
 1. `部署环境`：选择多套用于部署的环境
@@ -34,8 +34,8 @@ Zadig 系统支持使用一套服务配置，创建多套同构的环境，详�
 
 配置方式：修改工作流 -> `运行策略` -> 选择`并发运行`。
 
-![开启工作流并发运行](../../_images/open_parallel_setting_for_pipeline.png)
+![开启工作流并发运行](./_images/open_parallel_setting_for_pipeline.png)
 
 ## 执行效果
 同时提交两个 pull request，触发两个工作流任务，这两个任务会将服务部署到相对空闲的环境中，在工作流并发数允许的情况下，这两个任务将被并发执行以提高交付效率。
-![env_loadbalance_result](../../_images/env_loadbalance_result.png)
+![env_loadbalance_result](./_images/env_loadbalance_result.png)

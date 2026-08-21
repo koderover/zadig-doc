@@ -6,7 +6,7 @@ permalink: /en/Zadig v5.0/env/loadbalance/
 
 This article primarily introduces the load balancing capabilities of the Zadig environment. During peak usage periods, code changes that trigger workflow execution for service updates can lead to long wait times for workflow tasks due to environmental resource limitations, significantly impacting delivery efficiency. Zadig's environmental load balancing capability can alleviate the pressure on concurrent workflow tasks using environmental resources.
 
-![Environmental Load Balancing](../../_images/env_loadbalance.png)
+![Environmental Load Balancing](./_images/env_loadbalance.png)
 
 After simple configuration, the number of workflow tasks queued due to code changes can be reduced, maximizing resource utilization. The configuration steps are as follows:
 
@@ -20,7 +20,7 @@ The Zadig system supports using a single set of service configurations to create
 ## Step 2: Configure the Workflow Webhook Trigger
 After preparing multiple environments, configure the workflow trigger as shown in the figure below.
 
-![Webhook Configuration](../../_images/env_loadbalance_webhook.png)
+![Webhook Configuration](./_images/env_loadbalance_webhook.png)
 
 Explanation:
 1. `部署环境`: Select multiple environments for deployment
@@ -34,8 +34,8 @@ Multiple tasks in the same workflow are executed serially by default. To reduce 
 
 Configuration method: Modify the workflow -> `运行策略` -> Select `并发运行`.
 
-![Enable Workflow Concurrent Execution](../../_images/open_parallel_setting_for_pipeline.png)
+![Enable Workflow Concurrent Execution](./_images/open_parallel_setting_for_pipeline.png)
 
 ## Execution Effect
 Submit two pull requests simultaneously, triggering two workflow tasks. These two tasks will deploy the service to relatively idle environments. If the workflow concurrency allows, these two tasks will be executed concurrently to improve delivery efficiency.
-![env_loadbalance_result](../../_images/env_loadbalance_result.png)
+![env_loadbalance_result](./_images/env_loadbalance_result.png)
