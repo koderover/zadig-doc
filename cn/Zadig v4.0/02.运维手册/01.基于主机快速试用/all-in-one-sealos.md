@@ -56,7 +56,7 @@ sealos run labring/kubernetes:v1.24.0 labring/helm:v3.22.0 labring/calico:v3.24.
 sealos run --env IP=${IP} --env PORT=${PORT} labring/zadig:3.4.0
 ```
 
-![预期安装结果](../../../_images/sealos_install_success.png)
+![预期安装结果](./_images/sealos_install_success.png)
 
 安装过程预计持续 20 分钟左右，受硬件配置和网络情况影响，不同环境下的时间可能不同，
 当看到如图的输出时，说明安装已经完成。
@@ -70,7 +70,7 @@ kubectl -n zadig get po
 ```
 ## 步骤 5：访问系统
 
-![预期安装结果](../../../_images/get_endpoint.png)
+![预期安装结果](./_images/get_endpoint.png)
 
 在安装结果输出中，你可以获得系统的访问地址。
 
