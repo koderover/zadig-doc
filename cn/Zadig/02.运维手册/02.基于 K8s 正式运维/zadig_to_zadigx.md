@@ -1,7 +1,7 @@
 ---
 title: 基于 Zadig 升级
 date: 2023-04-21 09:59:31
-permalink: /cn/Zadig v5.0/stable/zadig-to-zadigx/
+permalink: /cn/Zadig v5.1/stable/zadig-to-zadigx/
 ---
 
 本文档主要介绍如何从正式使用中的 Zadig 系统，通过升级的方式切换到 Zadig，其中包括注意事项，准备工作及详细的升级验收步骤。
@@ -10,7 +10,7 @@ permalink: /cn/Zadig v5.0/stable/zadig-to-zadigx/
 
 1. 需购买 Zadig 官方许可，并在官方企业服务团队的指导下进行。
 2. Zadig 和 Zadig 的数据结构差异较大，升级操作不可逆，降级会造成不可用。
-3. Zadig 的版本不能低于 v1.18.0，如果版本不能满足，请参考[升级文档](/cn/Zadig%20v5.0/release-notes/v1.18.0/)先将其升级。
+3. Zadig 的版本不能低于 v1.18.0，如果版本不能满足，请参考[升级文档](/cn/Zadig%20v5.1/release-notes/v1.18.0/)先将其升级。
 
 ## 准备工作
 

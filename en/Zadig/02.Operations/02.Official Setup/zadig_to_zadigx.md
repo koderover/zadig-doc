@@ -1,7 +1,7 @@
 ---
 title: Upgrade
 date: 2023-04-21 09:59:31
-permalink: /en/Zadig v5.0/stable/zadig-to-zadigx/
+permalink: /en/Zadig v5.1/stable/zadig-to-zadigx/
 ---
 
 This document primarily describes how to switch from a Zadig system in production to the upgraded Zadig, including precautions, preparations, and detailed upgrade acceptance steps.
@@ -10,7 +10,7 @@ This document primarily describes how to switch from a Zadig system in productio
 
 1. You need to purchase the official Zadig license and perform the upgrade under the guidance of the official corporate service team.
 2. The data structures of Zadig and the upgraded Zadig differ significantly; the upgrade operation is irreversible, and downgrading will result in system unavailability.
-3. The version of Zadig must not be lower than v1.18.0. If the version does not meet this requirement, please refer to the [upgrade documentation](/en/Zadig%20v5.0/release-notes/v1.18.0/) to upgrade it first.
+3. The version of Zadig must not be lower than v1.18.0. If the version does not meet this requirement, please refer to the [upgrade documentation](/en/Zadig%20v5.1/release-notes/v1.18.0/) to upgrade it first.
 
 ## Preparation
 

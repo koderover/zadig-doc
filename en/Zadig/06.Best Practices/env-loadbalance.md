@@ -1,7 +1,7 @@
 ---
 title: Load Balancing of the Environment
 date: 2021-03-16 17:45:59
-permalink: /en/Zadig v5.0/env/loadbalance/
+permalink: /en/Zadig v5.1/env/loadbalance/
 ---
 
 This article primarily introduces the load balancing capabilities of the Zadig environment. During peak usage periods, code changes that trigger workflow execution for service updates can lead to long wait times for workflow tasks due to environmental resource limitations, significantly impacting delivery efficiency. Zadig's environmental load balancing capability can alleviate the pressure on concurrent workflow tasks using environmental resources.
@@ -15,7 +15,7 @@ After simple configuration, the number of workflow tasks queued due to code chan
 3. Enable product workflow concurrency
 
 ## Step 1: Configure Multiple Environments
-The Zadig system supports using a single set of service configurations to create multiple isomorphic environments. For detailed configuration steps, refer to [配置多套环境](/en/Zadig%20v5.0/env/multi-env/)
+The Zadig system supports using a single set of service configurations to create multiple isomorphic environments. For detailed configuration steps, refer to [配置多套环境](/en/Zadig%20v5.1/env/multi-env/)
 
 ## Step 2: Configure the Workflow Webhook Trigger
 After preparing multiple environments, configure the workflow trigger as shown in the figure below.
