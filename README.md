@@ -1,7 +1,7 @@
 <p><a href="https://docs.koderover.com" target="_blank" rel="noopener noreferrer"><img height="50" src="https://docs.koderover.com/zadig/img/zadig.png" alt="Zadig logo"></a></p>
 
 
-欢迎来到 [Zadig](https://github.com/koderover/zadig) 文档仓库，这里存放的是 [Zadig 中文文档](https://docs.koderover.com/zadig/)的 Markdown 文件。
+欢迎来到 [Zadig](https://github.com/koderover/zadig) 文档仓库，这里存放 [Zadig 文档](https://docs.koderover.com/zadig/)的中英文 Markdown 源文件。
 
 Zadig 由 KodeRover 自主研发，是基于 Kubernetes 与 AI 大模型的开源云原生 DevOps 平台，源码 100% 开放，致力于帮助企业实现产研数字化转型。
 核心能力覆盖灵活可扩展的工作流、多种发布策略编排、一键安全审核、AI 环境巡检与效能诊断、定制化企业级 XOps 敏捷看板，并支持深度集成企业平台、项目模板化批量纳管数千服务。
@@ -13,12 +13,15 @@ Zadig 全面融入 AI 代码审查、AI 发布风险评估、AI 任务编排及�
 
 如果你发现或遇到了 Zadig 文档的问题，可随时向我们提交 [Issue](https://github.com/koderover/zadig-doc/issues) 或 [Pull Request](https://github.com/koderover/zadig-doc/pulls)。
 
-在开始贡献前，请确认 Zadig 文档版本与内容文件夹的对应关系：
+在开始贡献前，请确认 Zadig 文档版本与 Git 分支的对应关系：
 
-- 1.7.0 对应 v1.7.0 
-- 1.6.0 对应 v1.6.0
 
-其余依此类推。
+- `main` 对应即将发布的 5.1
+- 5.0 对应 `v5.0`
+- 4.3 对应 `v4.3`
+- 4.2 对应 `v4.2`
+
+其余依此类推。修改某一版本时，切换到对应分支；该分支下的 `cn/Zadig`、`en/Zadig` 分别为中文和英文文档。
 
 文档编写时需要注意的相关事项，请参阅我们的[文档贡献指南](./CONTRIBUTING-CN.md)。
 

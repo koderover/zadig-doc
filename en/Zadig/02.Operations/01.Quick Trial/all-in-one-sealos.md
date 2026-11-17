@@ -1,7 +1,7 @@
 ---
 title: Sealos
 date: 2023-08-21 16:48:02
-permalink: /en/Zadig v5.0/install/all-in-one-sealos/
+permalink: /en/Zadig v5.1/install/all-in-one-sealos/
 ---
 
 Install Kubernetes and Zadig on a single cloud host or virtual machine using Sealos. This is suitable for users who are new to Kubernetes and Zadig and want a quick experience.
@@ -75,7 +75,7 @@ kubectl -n zadig get po
 In the installation result output, you will find the system's access address.
 
 ::: tip
-Professional License Acquisition and Configuration Reference Document: [License](/en/Zadig%20v5.0/enterprise-mgr/#license)
+Professional License Acquisition and Configuration Reference Document: [License](/en/Zadig%20v5.1/enterprise-mgr/#license)
 :::
 
 ## Uninstall
