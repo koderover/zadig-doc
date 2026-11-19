@@ -4,6 +4,8 @@ date: 2025-05-15 14:15:19
 permalink: /en/Zadig v5.1/ai/insight-analysis/
 ---
 
+Efficiency diagnostics is now part of [Zadig AI](/en/Zadig%20v5.1/ai/zadig-ai/). Select efficiency diagnostics in Zadig AI to analyze build, deployment, and test data, identify bottlenecks, and get improvement recommendations.
+
 Traditional engineering effectiveness analysis often relies on manual statistics and subjective judgment, which is inefficient and error-prone. Zadig accumulates large volumes of effectiveness data across builds, deployments, tests, and other stages of the R&D process. Leveraging integrated AI large language models, it intelligently analyzes this data to provide objective, actionable improvement recommendations for teams.
 
 Scenario value:

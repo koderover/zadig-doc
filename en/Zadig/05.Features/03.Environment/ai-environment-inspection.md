@@ -4,6 +4,8 @@ date: 2025-05-15 13:31:06
 permalink: /en/Zadig v5.1/ai/env-analysis/
 ---
 
+Environment inspection is now part of [Zadig AI](/en/Zadig%20v5.1/ai/zadig-ai/). Select environment inspection in Zadig AI to check Kubernetes environment health, identify common issues, and get remediation guidance.
+
 Facing complex Kubernetes production environments, traditional manual inspections are time-consuming and often fail to uncover latent risks. Zadig's AI environment inspection uses intelligent analysis to keep environments stable.
 
 Scenario value:

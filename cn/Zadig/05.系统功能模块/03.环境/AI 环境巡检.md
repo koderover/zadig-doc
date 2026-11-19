@@ -4,6 +4,8 @@ date: 2025-05-15 13:31:06
 permalink: /cn/Zadig v5.1/ai/env-analysis/
 ---
 
+环境巡检已集成至 [Zadig AI](/cn/Zadig%20v5.1/ai/zadig-ai/)。在 Zadig AI 中选择环境巡检，即可检查 Kubernetes 环境健康状态，识别常见问题并给出处理建议。
+
 面对复杂的 Kubernetes 生产环境，传统人工巡检耗时费力，且难以覆盖潜在风险。Zadig 的 AI 环境巡检，通过智能分析，确保环境稳定性。
 
 场景价值：
